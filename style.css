@@ -1,0 +1,308 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+	background: #F1F3F6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+.header {
+
+    width: 88%;
+    height: auto;
+    margin-left: 157px;
+}
+
+.header input {
+    width: 500px;
+    height: 46px;
+    margin-top: -12px;
+    position: absolute;
+    padding-left: 94px;
+    margin-left: 32px;
+    border-left: white;
+    border-right: white;
+    border bottom: auto;
+}
+.header ul {
+    float: right;
+    display: flex;
+    margin-right: 107px;
+    padding-right: -22px;
+}
+.header  a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.header li {
+    text-decoration: none;
+    padding: 12px;
+}
+ 
+ .header hr {
+ 	width: 100px;
+ }
+
+ .bg {
+    background: white;
+    height: 55px;
+
+}
+.header button {
+    background: yellow;
+    margin-top: 5px;
+    border:solid 1px;
+}
+
+.header img{
+	margin-top:5px;
+}
+/*---part2-----*/
+.second {
+    width: 88%;
+    height: auto;
+    margin-left: 157px;
+    background: #f7f5ee;
+}
+
+.profile {
+    width: 184px;
+    height: 36px;
+    background: white;
+   border:solid 1px #898188 ;
+}
+
+.profile label {
+    /* padding: 18px; */
+    text-align: center;
+    margin-left: 1px;
+    /* margin-bottom: -47px; */
+   font-family: #898188;
+}
+
+.profile i {
+    margin-top: 11px;
+    /* text-align: center; */
+    margin-left: 17px;
+    /* margin-bottom: -47px; */
+    }
+
+    /*  ---------------sub2-------------------*/
+
+   /*.sub2{
+    margin-left: 203px;
+    border:solid 1px  #898188;
+    width: 831px;
+    height: auto;
+
+    }*/
+.update {
+    position: absolute;
+    margin-left: 197px;
+    margin-top: -356px;
+    width: 852px;
+    background: white;
+    height: 550px;
+}
+
+.update label {
+    font-size: 30px;
+}
+
+.update i{
+	font-size: 30px;
+}
+
+
+.update label1 {
+    margin-left: 215px;
+    padding-top: 31px;
+    position: absolute;
+}
+
+
+.update input {
+    margin-left: 313px;
+    margin-top: 9px;
+    position: absolute;
+    width: 407px;
+    padding: 10px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.lastname label2 {
+    margin-left: 215px;
+    padding-top: 80px;
+    position: absolute;
+}
+
+
+.lastname input {
+    margin-left: 313px;
+    margin-top: 59px;
+    position: absolute;
+    width: 407px;
+    padding: 10px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+
+
+.phonenumber label3 {
+    margin-left: 213px;
+    padding-top: 130px;
+    position: absolute;
+}
+
+.phonenumber input {
+    margin-left: 313px;
+    margin-top: 109px;
+    position: absolute;
+    width: 407px;
+    padding: 10px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+
+.about label4 {
+    margin-left: 213px;
+    padding-top: 183px;
+    position: absolute;
+}
+
+.about textarea {
+    width: 419px;
+    margin-left: 313px;
+    padding-top: 2px;
+    margin-top: 175px;
+    height: 104px;
+    /* color: black; */
+    margin-bottom: 195px;
+    font-size: 16px;
+    border-left: white;
+    border-right: white;
+    border-top: white;
+}
+
+
+.email label5 {
+    margin-left: 253px;
+    margin-top: -154px;
+    position: absolute;
+}
+
+
+.email input {
+    margin-left: 313px;
+    margin-top: -178px;
+    position: absolute;
+    width: 407px;
+    padding: 10px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+
+
+
+.password label6 {
+    margin-left: 240px;
+    margin-top: -112px;
+    position: absolute;
+}
+
+.password input {
+    margin-left: 313px;
+    margin-top: -134px;
+    position: absolute;
+    width: 407px;
+    padding: 10px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+
+#m1 {
+    margin-left: 288px;
+    /* text-align: center; */
+    margin-top: -38px;
+    position: absolute;
+    width: 98px;
+    height: 40px;
+    background: green;
+}
+#m2 {
+    margin-left: 400px;
+    /* text-align: center; */
+    margin-top: -38px;
+    position: absolute;
+    width: 98px;
+    height: 40px;
+    background: red;
+     
+}
+
+
+
+.ft ul {
+    list-style: none;
+    margin-top: 215px;
+    display: flex;
+    background: #ffffff;
+    height: auto;
+    margin-top: 260px;
+    border:solid 1px #89817f
+
+  
+
+}
+.ft li {
+    padding: 15px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+    /* padding: 1px; */
+    margin-top: 27px;
+}
